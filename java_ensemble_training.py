@@ -45,8 +45,8 @@ warnings.filterwarnings('ignore')
 class Config:
     """Training configuration"""
     # Paths
-    train_path: str = "/mnt/user-data/uploads/java_train.parquet"
-    test_path: str = "/mnt/user-data/uploads/java_test.parquet"
+    train_path: str = "java_train.parquet"
+    test_path: str = "java_test.parquet"
     output_dir: str = "./models"
     
     # Java labels (7 categories)
